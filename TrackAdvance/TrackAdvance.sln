@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1D6A5BD3-6D66-47F1-8077-288CF4B29F9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TrackAdvance", "TrackAdvance", "{9013E106-E8BD-420E-AC6F-FA0350BF3195}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackAdvance.Api", "TrackAdvance.Api\TrackAdvance.Api.csproj", "{870EF5CC-96D5-4CA4-96FC-8432880D1DE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackAdvance.Domain.Models", "TrackAdvance.Domain.Models\TrackAdvance.Domain.Models.csproj", "{EE42212F-15C5-43C1-85D2-FF7426D4D48B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackAdvance.Domain.Services", "TrackAdvance.Domain.Services\TrackAdvance.Domain.Services.csproj", "{7C695953-4C83-4638-A8A4-A70C6F488956}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackAdvance.Data", "TrackAdvance.Data\TrackAdvance.Data.csproj", "{6F27CF06-5CBC-4DA2-8FF3-E50AD963DCDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackAdvance.Api.Infrastructure", "TrackAdvance.Api.Infrastructure\TrackAdvance.Api.Infrastructure.csproj", "{0E07992D-F517-4BCF-8C84-B2BBE147D884}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackAdvance.Infrastructure", "TrackAdvance.Infrastructure\TrackAdvance.Infrastructure.csproj", "{FA9DCC46-8E1A-4E5C-9C0D-7457750BE1C0}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TrackAdvance.WebUI", "TrackAdvance.WebUI\", "{3E12867E-235F-4197-B3E9-1F43DA4047CB}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63800"
+		Debug.AspNetCompiler.PhysicalPath = "TrackAdvance.WebUI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63800\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63800"
+		Release.AspNetCompiler.PhysicalPath = "TrackAdvance.WebUI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63800\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63800"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{870EF5CC-96D5-4CA4-96FC-8432880D1DE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{870EF5CC-96D5-4CA4-96FC-8432880D1DE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{870EF5CC-96D5-4CA4-96FC-8432880D1DE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{870EF5CC-96D5-4CA4-96FC-8432880D1DE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE42212F-15C5-43C1-85D2-FF7426D4D48B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE42212F-15C5-43C1-85D2-FF7426D4D48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE42212F-15C5-43C1-85D2-FF7426D4D48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE42212F-15C5-43C1-85D2-FF7426D4D48B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C695953-4C83-4638-A8A4-A70C6F488956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C695953-4C83-4638-A8A4-A70C6F488956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C695953-4C83-4638-A8A4-A70C6F488956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C695953-4C83-4638-A8A4-A70C6F488956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F27CF06-5CBC-4DA2-8FF3-E50AD963DCDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F27CF06-5CBC-4DA2-8FF3-E50AD963DCDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F27CF06-5CBC-4DA2-8FF3-E50AD963DCDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F27CF06-5CBC-4DA2-8FF3-E50AD963DCDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E07992D-F517-4BCF-8C84-B2BBE147D884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E07992D-F517-4BCF-8C84-B2BBE147D884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E07992D-F517-4BCF-8C84-B2BBE147D884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E07992D-F517-4BCF-8C84-B2BBE147D884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA9DCC46-8E1A-4E5C-9C0D-7457750BE1C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA9DCC46-8E1A-4E5C-9C0D-7457750BE1C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA9DCC46-8E1A-4E5C-9C0D-7457750BE1C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA9DCC46-8E1A-4E5C-9C0D-7457750BE1C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E12867E-235F-4197-B3E9-1F43DA4047CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E12867E-235F-4197-B3E9-1F43DA4047CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E12867E-235F-4197-B3E9-1F43DA4047CB}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E12867E-235F-4197-B3E9-1F43DA4047CB}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{870EF5CC-96D5-4CA4-96FC-8432880D1DE8} = {9013E106-E8BD-420E-AC6F-FA0350BF3195}
+		{EE42212F-15C5-43C1-85D2-FF7426D4D48B} = {9013E106-E8BD-420E-AC6F-FA0350BF3195}
+		{7C695953-4C83-4638-A8A4-A70C6F488956} = {9013E106-E8BD-420E-AC6F-FA0350BF3195}
+		{6F27CF06-5CBC-4DA2-8FF3-E50AD963DCDB} = {9013E106-E8BD-420E-AC6F-FA0350BF3195}
+		{0E07992D-F517-4BCF-8C84-B2BBE147D884} = {9013E106-E8BD-420E-AC6F-FA0350BF3195}
+		{FA9DCC46-8E1A-4E5C-9C0D-7457750BE1C0} = {9013E106-E8BD-420E-AC6F-FA0350BF3195}
+		{3E12867E-235F-4197-B3E9-1F43DA4047CB} = {9013E106-E8BD-420E-AC6F-FA0350BF3195}
+	EndGlobalSection
+EndGlobal
